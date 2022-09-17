@@ -1,0 +1,17 @@
+{
+  "name": "lyqethel.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lyqethel/lyqethel.github.io.git",
+  "author": "liyiqiao",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
+  },
+  "scripts": {
+    "docs-dev": "vitepress dev docs",
+    "docs-build": "vitepress build docs",
+    "docs-serve": "vitepress serve docs"
+  }
+}
