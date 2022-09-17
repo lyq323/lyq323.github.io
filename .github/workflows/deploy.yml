@@ -22,5 +22,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: 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
+          github_token: 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
           publish_dir: docs/.vitepress/dist
