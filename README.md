@@ -1,2 +1,2 @@
-# lyq323.github.io
-1
+# Study Blog
+> lyq323.github.io
