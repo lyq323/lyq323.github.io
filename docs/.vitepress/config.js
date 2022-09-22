@@ -1,7 +1,20 @@
-// vitepress/config.js
 module.exports = {
     base: '/',
-    title: "我的博客",// 网站标题
-    description: '保持清醒.', //网站描述
-    lang: 'en-US' //语言,
+    title: "Ethel Blog",
+    description: 'Keep Clear in the world!',
+    lang: 'en-US',
+    themeConfig: {
+        nav: [
+          { text: 'Java', link: '/Java/spring' },
+          { text: 'Think', link: '/think/think' }
+        ],
+        sidebar: [
+            {
+              text: 'SpringBoot',
+              items: [
+                { text: 'Spring', link: '/Java/spring' }
+              ]
+            }
+          ]
+      }
 }
