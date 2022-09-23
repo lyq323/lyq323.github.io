@@ -1,8 +1,9 @@
 ---
 layout: home
+prev: 'Get Started | Markdown'
 
 hero:
-  name: Ethel
+  name: MyBlog
   text:  Keep Clear
   tagline: 无所畏惧，保持清醒，保持心态
   image:
