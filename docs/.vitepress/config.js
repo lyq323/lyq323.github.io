@@ -1,8 +1,8 @@
 module.exports = {
     base: '/',
     title: "MyBlog",
-    description: 'Keep Clear',
-    siteTitle: 'My Custom Title',
+    description: 'A blog to record IT study',
+    siteTitle: 'Keep Clear',
     lang: 'en-US',
     lastUpdated: true,
     markdown: {
@@ -48,7 +48,7 @@ module.exports = {
         },
         footer: {
           message: 'Released under the MIT License.',
-          copyright: 'Copyright © 2019-present Ethel Li'
+          copyright: 'Copyright © 2022-present Ethel Li'
         }
       }
 }
