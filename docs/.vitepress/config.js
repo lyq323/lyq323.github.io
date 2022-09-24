@@ -5,11 +5,7 @@ module.exports = {
     siteTitle: 'Keep Clear',
     lang: 'en-US',
     lastUpdated: true,
-    markdown: {
-      headers: {
-        level: [0, 0]
-      }
-    },
+
     themeConfig: {
       socialLinks: [
         { icon: 'github', link: 'https://github.com/lyq323' }
@@ -19,21 +15,22 @@ module.exports = {
         text: 'Edit this page on GitHub'
       },
         nav: [
-          { text: 'Backend', link: '/Java/spring'},
-          { text: 'Frontend', link: '/Frontend/frontend'},
+          { text: 'Operation',link: '/Operation/git' },
+          { text: 'Backend', link: '/Java/spring' },
+          { text: 'Frontend', link: '/Frontend/frontend' }
         ],
         sidebar: {
           '/Java/': [
             {
               text: 'Java',
               items: [
-                { text: 'Base', link: '/Java/base'},
+                { text: 'Base', link: '/Java/base' },
               ]
             },
             {
               text: 'SpringBoot',
               items: [
-                { text: 'Spring', link: '/Java/spring'},
+                { text: 'Spring', link: '/Java/spring' },
               ]
             }
           ],
@@ -41,7 +38,15 @@ module.exports = {
             {
               text: 'Frontend',
               items: [
-                { text: 'Frontend', link: '/Frontend/frontend'}
+                { text: 'Frontend', link: '/Frontend/frontend' }
+              ]
+            }
+          ],
+          '/Operation/': [
+            {
+              text: 'Operation',
+              items: [
+                { text: 'Operation', link: '/Operation/git' }
               ]
             }
           ]
