@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./app.08297053.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Frontend/frontend.md","lastUpdated":1663940450000}'),r={name:"Frontend/frontend.md"};function o(a,s,d,c,p,_){return n(),t("div")}const m=e(r,[["render",o]]);export{i as __pageData,m as default};
