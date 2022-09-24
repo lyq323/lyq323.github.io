@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.4738f4c2.js";const A=JSON.parse('{"title":"Spring","description":"","frontmatter":{},"headers":[],"relativePath":"Java/spring.md","lastUpdated":1663995979000}'),p={name:"Java/spring.md"},o=l("",5),t=[o];function e(r,c,D,y,F,i){return n(),a("div",null,t)}const d=s(p,[["render",e]]);export{A as __pageData,d as default};
